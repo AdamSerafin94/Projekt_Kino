@@ -1,0 +1,103 @@
+<!doctype html>
+<html class="no-ja " lang="pl">
+<head>
+	<title>Kino Hades</title>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Oglądaj swoje ulubione filmy w naszym kinie!" />
+	<meta http-equiv="X-UA-Compatible" conent="IE=edge,chrome=1" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<script type="text/javascript" src="timer.js"></script>
+</head>
+
+<body onload="count();">
+	<div id="container">
+		<div id="logo">
+			<a href="index2.html"> <img src="img/hades.png"/> </a>
+		</div>
+		
+		<div id="nav">
+			<h4>Kategorie:</h4>
+			<a href="spiderman.html"> Spiderman 3 </a>
+			<br></br>
+			<a href="avengers.html"> Avengers </a>
+			<br></br>
+			<a href="antman.html"> Antman </a>
+			<br></br>
+			<a href="strangerthings.html"> Stranger Things </a>
+			<br></br>
+			<a href="twd.html"> The Walking Dead </a>
+		</div>
+		
+		<div id="content">
+			<h2> Podaj imię i nazwisko oraz godzinę i datę seansu: </h2>
+			<main>
+				<article>
+					<form action="" method="post">
+					
+						<div class="row">
+							<fieldset>
+							<legend> Dane: </legend>
+								<label>Imię<input type="text"></label>
+								<label>Nazwisko<input type="text"></label>
+							</fieldset>
+						</div>
+					
+						<div class="row">
+							<fieldset>
+							<legend> Godzina seansu: </legend>
+								<div><input type="radio" value="8" name="godzina" checked> <label for="godzina">8:00</label></div>
+								<div><input type="radio" value="12" name="godzina"> <label for="godzina">12:00</label></div>
+								<div><input type="radio" value="16" name="godzina"> <label for="godzina">16:00</label></div>
+							</fieldset>
+						</div>
+						<div class="row">
+							<label for="data"> Wybierz datę: </label>
+							<select>
+								<option value="pon">Poniedziałek</option>
+								<option value="wt">Wtorek</option>
+								<option value="sr">Środa</option>
+								<option value="czw">Czwartek</option>
+								<option value="ptk">Piątek</option>
+								<option value="sob">Sobota</option>
+								<option value="p">Niedziela</option>
+							</select>
+						</div>
+						<div class="row">
+							<fieldset>
+							<legend> Dodatkowe opcje: </legend>
+								<div><input type="checkbox" value="popcorn" name="opcje[]"> <label for="opcje">Popcorn 500g</label></div>
+								<div><input type="checkbox" value="napoj" name="opcje[]"> <label for="opcje">Cola 0.5l</label></div>
+								<div><input type="checkbox" value="Orzeszki" name="opcje[]"> <label for="opcje">Orzeszki solone</label></div>
+								<div><input type="checkbox" value="Oranzada" name="opcje[]"> <label for="opcje">Oranzada 0.5l</label></div>
+							</fieldset>
+						</div>
+						
+						<div class="row">
+							<fieldset>
+							<legend> Tryb oglądania: </legend>
+								<div><input type="radio" value="8" name="tryb" checked> <label for="tryb">2D</label></div>
+								<div><input type="radio" value="12" name="tryb"> <label for="tryb">3D</label></div>
+								<div><input type="radio" value="16" name="tryb"> <label for="tryb">5D</label></div>
+							</fieldset>
+						</div>
+						
+						<button class="button"> Rezerwuj </button> </a>
+						<br></br>
+						<button class="button"> Anuluj </button> </a>
+					</form>
+				</article>
+			</main>
+		</div>
+		
+		<div id="ad">
+			<h4>Reklama</h4>
+			<img src="ad/ad2.png"/>
+		</div>
+		
+		<div id="footer">
+			Najlepsze filmy - kino Hades! &copy; Paweł Tabor, Adam Serafin, Sebastian Wąsowicz
+			<div id="clock"></div>
+		</div>
+		
+	</div>
+</body>

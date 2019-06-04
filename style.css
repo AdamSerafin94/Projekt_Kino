@@ -1,0 +1,92 @@
+	* 
+	{
+		box-sizing: border-box;
+	}
+	body
+	{
+		background-image: url("img/tlo.png");
+		font-family: 'Lato', sans-serif;
+		font-size: 20px;
+	}
+	#container
+	{
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#logo
+	{
+		background-color: black;
+		color: white;
+		text-align: center;
+	}
+	#nav
+	{
+		float: left;
+		background-color: darkgray;
+		width: 12.5%;
+		min-height: 1000px;
+		padding: 10px;
+	}
+	#content
+	{
+		float: left;
+		padding: 20px;
+		width: 69.3%;
+		text-align: center;
+		color: red;
+	}
+	#ad
+	{
+		float: right;
+		width: 12.5%;
+		min-height: 1000px;
+		padding: 10px;
+		background-color: darkgray;
+	}
+	#footer
+	{
+		clear: both;
+		background-color: black;
+		color: white;
+		text-align: center;
+		padding: 20px;
+	}
+	
+	.button{
+		background-color: black;
+		border: none;
+		color: white;
+		padding: 10px 20px;
+		text-align: center;
+		font-size: 16px;
+		cursor: pointer;
+	}
+	.button:hover {
+		background-color: gray;
+	}
+
+	.row
+	{
+		margin: 20px 10px;
+	}
+	
+	/* unvisited link */
+	a:link {
+		color: red;
+	}
+
+	/* visited link */
+	a:visited {
+		color: blue;
+	}
+
+	/* mouse over link */
+	a:hover {
+		color: yellow;
+	}
+
+	/* selected link */
+	a:active {
+		color: blue;
+	}

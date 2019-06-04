@@ -1,0 +1,60 @@
+<!doctype html>
+<html class="no-ja " lang="pl">
+<head>
+	<title>Kino Hades</title>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Oglądaj swoje ulubione filmy w naszym kinie!" />
+	<meta content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" conent="IE=edge,chrome=1" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="timer.js"></script>
+	<script type="text/javascript" src="slider1to5.js"></script>
+</head>
+
+<body onload="count(),changeslide(), changead()">
+	<div id="container">
+		<div id="logo">
+			<a href="index2.html"> <img src="img/hades.png"/> </a>
+		</div>
+		
+		<div id="nav">
+			<h4>Kategorie:</h4>
+			<p><b><a href="spiderman.html"> Spiderman 3 </a></b></p>
+			
+			<p><b><a href="avengers.html"> Avengers </a></b></p>
+	
+			<p><b><a href="antman.html"> Antman </a></b></p>
+
+			<p><b><a href="strangerthings.html"> Stranger Things </a></b></p>
+
+			<p><b><a href="twd.html"> The Walking Dead </a></b></p>
+		</div>
+		
+		<div id="content">
+			<h2 style="border: 2px solid Tomato;">Witamy w Hadesie! Zapraszamy do rezerwacji biletów! </h2>
+			<p><i>Tutaj z pewnością każdy znajdzie coś dla siebie, wystarczy wybrać tytuł z listy po lewej stronie,
+			bądź skorzystać z wyszukiwarki po prawej stronie strony. Wystarczy wybrać tytuł oraz zamówić bilet.</i></p>
+			
+				<div id="slider"></div>
+				<span onclick="setslide(1)" style="cursor:pointer;">[1]</span>
+				<span onclick="setslide(2)" style="cursor:pointer;">[2]</span>
+				<span onclick="setslide(3)" style="cursor:pointer;">[3]</span>
+				<span onclick="setslide(4)" style="cursor:pointer;">[4]</span>
+				<span onclick="setslide(5)" style="cursor:pointer;">[5]</span>	
+			
+		</div>
+		
+		<div id="ad">
+			<h4>Reklama</h4>
+			<img src="ad/ad2.png"/>
+		</div>
+		
+		<div id="footer">
+			Najlepsze filmy - kino Hades! &copy; Paweł Tabor, Adam Serafin, Sebastian Wąsowicz
+			<div id="clock"></div>
+		</div>
+		
+	</div>
+</body>
